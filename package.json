@@ -1,0 +1,63 @@
+{
+  "homepage": "https://roneil21.github.io/dev-portfolio",
+  "name": "portfolio-app",
+  
+  "private": true,
+  
+  "version": "0.0.0",
+  
+  "type": "module",
+  
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  
+    
+  "dev": "vite",
+  
+    
+  "build": "vite build",
+  
+    
+  "preview": "vite preview"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "@emailjs/browser": "^3.11.0",
+  
+    
+  "react": "^18.2.0",
+  
+    
+  "react-dom": "^18.2.0",
+  
+    
+  "react-icons": "^4.10.1",
+  
+    
+  "swiper": "^10.0.4"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "@types/react": "^18.0.27",
+  
+    
+  "@types/react-dom": "^18.0.10",
+  
+    
+  "@vitejs/plugin-react": "^3.1.0",
+  
+    
+  "gh-pages": "^5.0.0",
+  
+    
+  "vite": "^4.1.0"
+  
+  }
+}
