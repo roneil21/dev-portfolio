@@ -48,9 +48,13 @@
 
 /*  Media Queries (SmallDevices)  */
 @media screen and (max-width: 600px){
+    #portfolio>h2{
+        font-size: 2.5rem;
+    }
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
+        font-size: 0.9rem;
     }
 }
 

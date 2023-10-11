@@ -63,8 +63,14 @@ input, textarea{
 
 /*  Media Queries (SmallDevices)  */
 @media screen and (max-width: 600px){
+    #contacts>h2{
+        font-size: 2.5rem;
+    }
     .container.contact__container{
         width: var(--container-width-sm);
+    }
+    input, textarea{
+        width: 88%;
     }
 }
 

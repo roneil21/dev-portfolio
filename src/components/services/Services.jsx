@@ -16,7 +16,7 @@ function Services() {
           <ul className="service__list">
             <li>
               <BsCheck2Circle className="service__list-icon" />
-              <p>Prototyping, wireframing, user flows and mockups</p>
+              <p>Wireframing, user flows and mockups</p>
             </li>
             <li>
               <BsCheck2Circle className="service__list-icon" />
@@ -29,10 +29,6 @@ function Services() {
             <li>
               <BsCheck2Circle className="service__list-icon" />
               <p>Application development</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service__list-icon" />
-              <p>Prioritization and time management</p>
             </li>
           </ul>
         </article>

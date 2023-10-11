@@ -64,8 +64,18 @@
 
 /*  Media Queries (SmallDevices)  */
 @media screen and (max-width: 600px){
+    #services>h2{
+        font-size: 2.5rem;
+    }
     .services__container{
         grid-template-columns: 1fr;
         gap: 1.5rem
+    }
+    .service__head h3{
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    .service__list li{
+        font-size: 0.9rem;
     }
 }

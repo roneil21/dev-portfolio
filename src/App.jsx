@@ -7,25 +7,21 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
 
-
-
 import "./style.css";
-
 
 function App() {
   return (
     <div className="gradient__bg">
-  <Header />
-  <Nav />
-  <About />
-  <Experience />
-  <Services />
-  <Portfolio />
-  <Contacts />
-  <Footer />
-
-  </div>
-)
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Services />
+      <Portfolio />
+      <Contacts />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

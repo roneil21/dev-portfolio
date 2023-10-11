@@ -4,8 +4,8 @@ import IMG1 from "../../assets/gpt.png";
 import IMG2 from "../../assets/notes.png";
 import IMG3 from "../../assets/game.png";
 import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG5 from "../../assets/IMG5.png";
+import IMG6 from "../../assets/IMG6.png";
 
 const data = [
   {
@@ -40,9 +40,16 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "Slider App Using React and SwiperJS",
-    github: "https://github.com/roneil21/slider-app",
-    demo: "https://roneil21.github.io/slider-app/",
+    title: "ReactJS : Fun Art Landing Page Front-End Design",
+    github: "https://github.com/roneil21/fun-art",
+    demo: "https://roneil21.github.io/fun-art/",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "ReactJS : KARA Landing Page Front-End Design",
+    github: "https://github.com/roneil21/kara",
+    demo: "https://roneil21.github.io/kara/",
   },
   // {
   //   id: 6,

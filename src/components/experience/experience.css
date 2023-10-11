@@ -59,12 +59,18 @@
 
 /*  Media Queries (SmallDevices)  */
 @media screen and (max-width: 600px){
+    #experience>h2{
+        font-size: 2.5rem;
+    }
     .experience__container{
         gap: 1rem;
     }
     .experience__container > div{
-        width: 100%;
+        width: 88%;
         padding: 2rem 1rem;
+    }
+    .experience__details{
+        font-size: 0.85rem;
     }
     
 
